@@ -15,7 +15,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    UILabel *lable = [UILabel new];
+    [self.view addSubview:lable];
 }
 
 
