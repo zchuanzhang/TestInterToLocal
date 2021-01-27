@@ -17,6 +17,7 @@
     [super viewDidLoad];
     UILabel *lable = [UILabel new];
     [self.view addSubview:lable];
+    lable.font = [UIFont systemFontOfSize:13];
 }
 
 
